@@ -28,7 +28,9 @@ function Counter() {
     <Decrease  />
   </div>
 }
-
+/*
+  Here we tried to write the code for recoil but due to some mismatch error we were not able to fix it, so instead of recoil we used MEMO here for my study purpose.
+*/ 
 
 
 const CurrentCount = memo(function () {
